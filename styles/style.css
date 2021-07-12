@@ -131,18 +131,7 @@ hr{
          grid-template-columns: repeat(1, 1fr);
          
     }
-    .blog, .player, {
+    .blog, .player {
         flex-direction: column;
         justify-content: center;
     }
-    /* Tablet divices
-    @media only screen and (min-width:688px) and (max-width:992px) {
-        .players{
-            background-color: red;
-        }
-    }
-    */
-
-
-
-
