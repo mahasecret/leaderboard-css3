@@ -5,6 +5,32 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+/* Navigation var  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 255, 0.616);
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    margin-right: 18px;
+}
+nav a img{
+    width: 55px;
+    height: 40px;
+    
+    
+    
+}
+span {
+    text-align: center
+}
 main{
     display: flex;
     flex-direction: column;
@@ -118,6 +144,20 @@ hr{
     color: #FF4A60;
 
 }
+/* footer */
+footer{
+    background-color: black;
+    height: 100px;
+    color: blanchedalmond;
+    text-align: center;
+    
+    
+}
+footer p{
+    padding-top: 45px;
+    font-size: 20px;
+}
+
 /* -----------------
     Media Queries
 -------------------- */
